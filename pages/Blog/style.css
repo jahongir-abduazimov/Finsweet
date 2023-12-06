@@ -1,0 +1,160 @@
+/* Trending section start */
+
+.trending-wrapper {
+    margin: 96px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.process__title-wrapper a {
+    color: #444CFC;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 24px;
+}
+
+.blog-img-part {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.blog-img-part p:first-child {
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.blog-img-part p:last-child {
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+    padding-left: 20px;
+}
+
+.trending-wrapper-item {
+    width: 515px;
+    height: 770px;
+    background: #FFDFC6;
+    padding: 72px;
+    position: relative;
+}
+
+.ether-title-wrapper2-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tranding-card:not(:last-child) {
+    margin-bottom: 48px;
+}
+
+.tranding-card h3 {
+    color: #232536;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 21px;
+}
+
+.tranding-card > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tranding-img-title p:first-child {
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tranding-img-title p:last-child {
+    color: #232536;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+/* Trending section end */
+
+/* Posts section start */
+
+.post-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.posts-wrapper {
+    margin-bottom: 96px;
+}
+
+.posts-wrapper > h2 {
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 64px;
+}
+
+.post-card {
+    width: 624px;
+    display: flex;
+    background: #F9F9FF;
+}
+
+.post-card-title h3 {
+    color: #232536;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 32px;
+}
+
+.post-card-title > div {
+    display: flex;
+    gap: 10px;
+    padding-left: 32px;
+}
+
+.post-card-title > p {
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.8;
+    padding: 0 32px 29px 32px;
+}
+
+/* Posts section end */
+
+/* Posts section 2 start */
+
+#post {
+    padding: 96px 0 96px 0;
+    background: #F9F9F9;
+}
+
+.post-title {
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 64px;
+}
+
+.post-cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.post-card2 {
+    width: 405px;
+    background-color: #fff;
+    padding-bottom: 32px;
+}
+
+/* Posts section 2 end */

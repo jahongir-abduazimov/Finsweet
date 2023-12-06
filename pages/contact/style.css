@@ -1,0 +1,111 @@
+/* Contact section */
+
+.contact__wrapper {
+    margin: 96px 0;
+}
+
+.top-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #FFD3AF;
+    margin-bottom: 24px;
+}
+
+.contact__wrapper--left {
+    width: 672px;
+}
+
+.contact__wrapper--left h1 {
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    margin-bottom: 24px;
+}
+
+.contact__wrapper--left p {
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.87;
+    margin-bottom: 64px;
+}
+
+form label {
+    color: #232536;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+    display: block;
+    width: 70px;
+}
+
+form input {
+    width: 405px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgba(36, 37, 54, 0.2);
+    margin-bottom: 24px;
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form textarea{
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid rgba(36, 37, 54, 0.2);
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+form button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 32px;
+    background-color: #444CFC;
+    border: none;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+form button::after {
+    content: "→";
+}
+
+form button div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact__wrapper--right {
+    width: 512px;
+    background-color: #666DFF;
+    padding: 83px 152px 128px 93px;
+}
+
+.contact__wrapper--right span {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.contact__wrapper--right p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 24px 0;
+}
+
+
+/* Contact section end */

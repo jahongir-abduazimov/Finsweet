@@ -1,0 +1,173 @@
+.wrapper-careers {
+    position: relative;
+    margin-bottom: 96px;
+}
+
+.careers-wrapper-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.careers-wrapper {
+    width: 640px;
+    text-align: center;
+    margin: 96px auto 0 auto;
+}
+
+.careers-wrapper h1 {
+    color: var(--Black, #232536);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    margin: 20px 0 20px 0;
+}
+
+.careers-page {
+    color: var(--Black, #232536);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.careers-title {
+    background-image: url(../../assets/images/Image\(5\).png);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-weight: 900;
+}
+
+.openPosition{
+    color: #232536;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.downIcon {
+    text-align: center;
+}
+
+/* careers-cards section start */
+
+.careers-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ECF8F9;
+    gap: 30px;
+    padding: 78px;
+    margin-bottom: 96px;
+}
+
+.careers-card {
+    background-color: #fff;
+    width: 354px;
+    padding: 48px 0 30px 48px;
+    transition: all 0.2s ease;
+}
+
+.careers-card:hover {
+    transform: scale(1.1);
+}
+
+.careers-card h3 {
+    color: var(--Black, #232536);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.careers-card p {
+    color: var(--Black, #232536);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.careers-card a {
+    color: var(--iris-100, #5D5FEF);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.a {
+    margin-bottom: 52px;
+    margin-top: 3px;
+}
+
+.careers-card a::after {
+    content: "→";
+    padding-left: 5px;
+}
+
+/* careers-cards section end */
+
+/* culture section start */
+
+#culture {
+    background: #FAFAFC;
+    padding: 96px 0 96px 0;
+    margin-bottom: 96px;
+}
+
+.culture-title-wrapper {
+    width: 624px;
+}
+
+.culture-title-wrapper h2 {
+    color: #232536;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 24px;
+}
+
+.culture-title-wrapper p {
+    color: #232536;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.culture-card {
+    width: 418px;
+    background-color: #fff;
+    padding: 32px;
+}
+
+.culture-card h3 {
+    color: var(--Black, #232536);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 8px 0 8px 0;
+}
+
+.culture-card p {
+    color: var(--Black, #232536);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.6;
+}
+
+.culture-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 64px;
+}
+
+/* culture section start */
